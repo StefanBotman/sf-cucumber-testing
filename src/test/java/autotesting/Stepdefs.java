@@ -25,7 +25,7 @@ public class Stepdefs {
 
 	@Given("^username \"([^\"]*)\" and password \"([^\"]*)\"$")
 	public void username_and_password(String arg1, String arg2) throws Exception {
-		// Write code here that turns the phrase above into concrete actions - test3
+		// Write code here that turns the phrase above into concrete actions - test4
 		throw new PendingException();
 	}
 
