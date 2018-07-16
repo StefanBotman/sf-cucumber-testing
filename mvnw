@@ -36,6 +36,7 @@
 
 if [ "$#" -ne 1 ] ; then
 	./mvnw test
+	exit
 fi
 if [ -z "$MAVEN_SKIP_RC" ] ; then
 
