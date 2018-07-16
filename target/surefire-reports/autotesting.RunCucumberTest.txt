@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: autotesting.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.65 sec <<< FAILURE!
+Create Account Page(Test Login)  Time elapsed: 0.3 sec  <<< ERROR!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:43)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:168)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at autotesting.Stepdefs.navigate_to(Stepdefs.java:21)
+	at ?.navigate to "https://login.salesforce.com"(autotesting/login.feature:4)
+

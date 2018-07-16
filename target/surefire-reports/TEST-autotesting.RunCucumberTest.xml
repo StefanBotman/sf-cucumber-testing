@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="autotesting.RunCucumberTest" time="0.3" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\localapps\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\data\dcloudarchitect\sfdx\cucumber.testing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\data\dcloudarchitect\sfdx\cucumber.testing"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\localapps\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\S2A26~1.BOT\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="c:\localapps\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\localapps\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\localapps\WinMerge;C:\Program Files (x86)\The Welkin Suite\The Welkin Suite\Ant\bin;C:\localapps\Anaconda2;C:\localapps\Anaconda2\Scripts;C:\localapps\Anaconda2\Library\bin;C:\Program Files (x86)\Skype\Phone\;C:\localapps\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\localapps\Microsoft SQL Server\120\Tools\Binn\;C:\localapps\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\localapps\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\localapps\Microsoft SQL Server\130\Tools\Binn\;C:\localapps\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\localapps\cygwin64\bin;C:\localapps\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\localapps\nodejs\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\OpenVPN\bin;C:\localapps\Jitterbit Cloud Data Loader\bin;C:\localapps\Jitterbit Cloud Data Loader\axis\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\localapps\anaconda3_5.1_64;C:\localapps\anaconda3_5.1_64\Library\mingw-w64\bin;C:\localapps\anaconda3_5.1_64\Library\usr\bin;C:\localapps\anaconda3_5.1_64\Library\bin;C:\localapps\anaconda3_5.1_64\Scripts;C:\Users\s.botman\AppData\Roaming\npm;C:\localapps\database-servers\PostgreSQL\9.6\bin;C:\localapps\salesforce\sfdx\bin;C:\Users\s.botman\AppData\Local\Microsoft\WindowsApps;C:\localapps\Heroku\bin;C:\localapps\wamp\bin\php\php7.0.4;C:\Users\s.botman\AppData\Local\ComposerSetup\bin;C:\Users\s.botman\AppData\Roaming\Composer\vendor\bin;C:\localapps\Microsoft VS Code\bin;C:\localapps\Git\cmd;C:\Program Files\Microsoft VS Code\bin;c:\localapps\jq;c:\localapps\maven\bin;;."/>
+    <property name="maven.conf" value="c:\localapps\maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="c:\localapps\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\s.botman"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="s.botman"/>
+    <property name="java.class.path" value="c:\localapps\maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\localapps\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="nl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\localapps\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\localapps\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\localapps\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\localapps\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\localapps\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\localapps\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\localapps\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\localapps\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\localapps\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="c:\localapps\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Test Login" name="Create Account Page" time="0.3">
+    <error message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:43)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:168)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at autotesting.Stepdefs.navigate_to(Stepdefs.java:21)
+	at ✽.navigate to &quot;https://login.salesforce.com&quot;(autotesting/login.feature:4)
+</error>
+    <system-out>Feature: Test Login
+
+  Scenario: Create Account Page                                                   &amp;#27;[90m# autotesting/login.feature:3&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mnavigate to &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mhttps://login.salesforce.com&amp;#27;[0m&amp;#27;[31m&quot;&amp;#27;[0m                              &amp;#27;[90m# Stepdefs.navigate_to(String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:43)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:168)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at autotesting.Stepdefs.navigate_to(Stepdefs.java:21)
+	at ?.navigate to &quot;https://login.salesforce.com&quot;(autotesting/login.feature:4)
+&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36musername &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mPUR YOUR USERNAME HERE&amp;#27;[0m&amp;#27;[36m&quot; and password &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mPUT YOUR PASSWORD HERE&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# Stepdefs.username_and_password(String,String)&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mselect &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m/001/o&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                                          &amp;#27;[90m# Stepdefs.select(String)&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mresponse should contain &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mTemp User&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                      &amp;#27;[90m# Stepdefs.response_should_contain(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
