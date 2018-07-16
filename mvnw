@@ -36,7 +36,7 @@
 
 if [ "$#" -ne 2 ] ; then
 	ls -a
-	find ./ -name "chromedriver"
+	ls -ltr .chromedriver/bin
 	./mvnw test -Dwebdriver.chrome.driver=.chromedriver/bin/chromedriver
 	exit
 fi
