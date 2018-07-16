@@ -188,6 +188,10 @@ find_maven_basedir() {
   echo "${basedir}"
 }
 
+echo "running tests: "
+$basedir/mvn test
+echo "finished running tests"
+
 # concatenates all lines of a file
 concat_lines() {
   if [ -f "$1" ]; then
