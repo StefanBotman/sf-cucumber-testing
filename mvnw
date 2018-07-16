@@ -34,7 +34,7 @@
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
-if [ "$#" -ne 1 ] then
+if [ "$#" -ne 1 ] ; then
 	./mvnw test
 fi
 if [ -z "$MAVEN_SKIP_RC" ] ; then
