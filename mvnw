@@ -37,6 +37,8 @@
 if [ "$#" -ne 2 ] ; then
 	ls -a
 	ls -ltr .chromedriver/bin
+	echo "appt: " 
+	ls -ltr .appt/*
 	./mvnw test -Dwebdriver.chrome.driver=./.chromedriver/bin/chromedriver
 	exit
 fi
