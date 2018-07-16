@@ -37,7 +37,7 @@
 if [ "$#" -ne 2 ] ; then
 	ls -a
 	ls -ltr .chromedriver/bin
-	./mvnw test -Dwebdriver.chrome.driver=.chromedriver/bin/chromedriver
+	./mvnw test -Dwebdriver.chrome.driver=./.chromedriver/bin/chromedriver
 	exit
 fi
 if [ -z "$MAVEN_SKIP_RC" ] ; then
