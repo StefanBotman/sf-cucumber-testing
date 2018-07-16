@@ -18,7 +18,7 @@ public class Stepdefs {
 	
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/");
 	}
