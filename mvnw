@@ -34,6 +34,9 @@
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
+if [ "$#" -ne 1 ] then
+	./mvnw test
+fi
 if [ -z "$MAVEN_SKIP_RC" ] ; then
 
   if [ -f /etc/mavenrc ] ; then
@@ -187,10 +190,6 @@ find_maven_basedir() {
   done
   echo "${basedir}"
 }
-
-echo "running tests: "
-$basedir/mvn test
-echo "finished running tests"
 
 # concatenates all lines of a file
 concat_lines() {
