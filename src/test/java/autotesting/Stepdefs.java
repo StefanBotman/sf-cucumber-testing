@@ -22,7 +22,7 @@ public class Stepdefs {
 		System.getProperties().list(System.out);
 		ChromeOptions co = new ChromeOptions();
 		co.setBinary(System.getProperty("webdriver.chrome.driver"));
-		driver = new RemoteWebDriver(new ChromeOptions());//new ChromeDriver();
+		driver = new RemoteWebDriver(co);//new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/");
 	}
