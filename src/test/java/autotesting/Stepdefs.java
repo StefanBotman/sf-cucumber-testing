@@ -12,6 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.net.URL;
+
 public class Stepdefs {
 
 	private WebDriver driver;
@@ -23,9 +25,9 @@ public class Stepdefs {
 			System.out.println("webdriver: " + System.getProperty("webdriver.chrome.driver"));
 			ChromeOptions co = new ChromeOptions();
 			co.setBinary(System.getProperty("webdriver.chrome.driver"));
-			driver = new RemoteWebDriver(co);//new ChromeDriver();
+			driver = new RemoteWebDriver(new URL(baseUrl + "/"), co);//new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			driver.get(baseUrl + "/");
+			//driver.get(baseUrl + "/");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
