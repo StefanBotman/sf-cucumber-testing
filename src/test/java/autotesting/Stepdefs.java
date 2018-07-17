@@ -9,6 +9,8 @@ import static org.junit.Assert.*;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Stepdefs {
@@ -18,7 +20,7 @@ public class Stepdefs {
 	
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
-		driver = new ChromeDriver();
+		driver = new RemoteWebDriver(DesiredCapabilities.chrome());//new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/");
 	}
