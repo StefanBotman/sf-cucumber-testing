@@ -12,8 +12,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.net.URL;
-
 public class Stepdefs {
 
 	private WebDriver driver;
@@ -21,6 +19,7 @@ public class Stepdefs {
 	
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
+		System.getProperties().list(System.out);
 		driver = new RemoteWebDriver(new ChromeOptions());//new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/");
