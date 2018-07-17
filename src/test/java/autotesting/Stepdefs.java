@@ -21,7 +21,7 @@ public class Stepdefs {
 	
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
-		driver = new RemoteWebDriver(new URL("https://localhost:9001"), new ChromeOptions());//new ChromeDriver();
+		driver = new RemoteWebDriver(new ChromeOptions());//new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/");
 	}

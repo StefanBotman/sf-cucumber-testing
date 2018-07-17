@@ -34,12 +34,12 @@
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
 
-if [ "$#" -ne 2 ] ; then
+if [ "$#" -ne 3 ] ; then
 	ls -a
 	ls -ltr .chromedriver/bin
 	echo "appt: " 
 	ls -ltr .apt/*
-	./mvnw test -Dwebdriver.chrome.driver=./.chromedriver/bin/chromedriver
+	./mvnw test -Dwebdriver.chrome.driver=.chromedriver/bin/chromedriver -X
 	exit
 fi
 if [ -z "$MAVEN_SKIP_RC" ] ; then
