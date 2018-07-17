@@ -34,18 +34,20 @@ public class Stepdefs {
 	@Given("^username \"([^\"]*)\" and password \"([^\"]*)\"$")
 	public void username_and_password(String arg1, String arg2) throws Exception {
 		// Write code here that turns the phrase above into concrete actions - test6
-		throw new PendingException();
+		//throw new PendingException();
+		System.out.println("username_and_password succeeded");
 	}
 
 	@Then("^select \"([^\"]*)\"$")
 	public void select(String arg1) throws Exception {
 		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
+		//throw new PendingException();
+		System.out.println("select succeeded");
 	}
 
 	@Then("^response should contain \"([^\"]*)\"$")
 	public void response_should_contain(String arg1) throws Exception {
 		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
+		System.out.println("response_should_contain succeeded");
 	}
 }
