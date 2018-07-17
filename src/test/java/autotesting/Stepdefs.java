@@ -24,7 +24,7 @@ public class Stepdefs {
 		try {
 			System.out.println("webdriver: " + System.getProperty("webdriver.chrome.driver"));
 			ChromeOptions co = new ChromeOptions();
-			co.setBinary(System.getProperty("webdriver.chrome.driver"));
+			//co.setBinary(System.getProperty("webdriver.chrome.driver"));
 			driver = new RemoteWebDriver(new URL(baseUrl + "/"), co);//new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			//driver.get(baseUrl + "/");
