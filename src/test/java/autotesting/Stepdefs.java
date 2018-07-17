@@ -20,6 +20,8 @@ public class Stepdefs {
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
 		System.getProperties().list(System.out);
+		ChromeOptions co = new ChromeOptions();
+		co.setBinary(System.getProperty("webdriver.chrome.driver"));
 		driver = new RemoteWebDriver(new ChromeOptions());//new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(baseUrl + "/");
