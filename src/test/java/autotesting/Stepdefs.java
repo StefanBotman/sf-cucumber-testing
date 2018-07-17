@@ -19,12 +19,16 @@ public class Stepdefs {
 	
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
-		System.getProperties().list(System.out);
-		ChromeOptions co = new ChromeOptions();
-		co.setBinary(System.getProperty("webdriver.chrome.driver"));
-		driver = new RemoteWebDriver(co);//new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get(baseUrl + "/");
+		try {
+			System.out.println("webdriver: " + System.getProperty("webdriver.chrome.driver"));
+			ChromeOptions co = new ChromeOptions();
+			co.setBinary(System.getProperty("webdriver.chrome.driver"));
+			driver = new RemoteWebDriver(co);//new ChromeDriver();
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.get(baseUrl + "/");
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 	@Given("^username \"([^\"]*)\" and password \"([^\"]*)\"$")
