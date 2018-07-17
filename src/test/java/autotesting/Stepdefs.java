@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Stepdefs {
 
 	private WebDriver driver;
- 	private String baseUrl;
+ 	private String baseUrl = "https://login.salesforce.com";
 	
 	@Given("^navigate to \"([^\"]*)\"$")
 	public void navigate_to(String arg1) throws Exception {
