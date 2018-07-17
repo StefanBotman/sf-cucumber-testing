@@ -39,7 +39,7 @@ if [ "$#" -ne 2 ] ; then
 	ls -ltr .chromedriver/bin
 	echo "appt: " 
 	ls -ltr .apt/*
-	./mvnw test -Dwebdriver.chrome.driver=.chromedriver/bin/chromedriver
+	./mvnw test -Dwebdriver.chrome.driver=.chromedriver/bin/
 	exit
 fi
 if [ -z "$MAVEN_SKIP_RC" ] ; then
