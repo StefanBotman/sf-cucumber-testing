@@ -12,6 +12,11 @@ ls -altr $1
 
 #find / -name "mvn"
 
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$JAVA_HOME/jre/bin:$PATH
+
+
 pushd $1
 /app/tmp/cache/.maven/bin/mvn test
 popd
