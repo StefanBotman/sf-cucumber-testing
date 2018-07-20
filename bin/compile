@@ -1,6 +1,6 @@
 #cat $1/Procfile
-echo "release: mvn test" > $1/Procfile
-rm mvnm*
+echo "release: mvnw test" > $1/Procfile
+
 cp -r ./* $1
 
 #echo "procfile now: "
