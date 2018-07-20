@@ -10,4 +10,8 @@ ls -altr $1
 #echo "procfile now: "
 #cat $1/Procfile
 
-find / -name "mvn"
+#find / -name "mvn"
+
+pushd $1
+/app/tmp/cache/.maven/bin/mvn test
+popd
