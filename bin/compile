@@ -1,9 +1,5 @@
-chmod 700 $BUILD_DIR/Procfile
-cat $BUILD_DIR/Procfile
-echo "release: mvn test" >> $BUILD_DIR/Procfile2
+cat $1/Procfile
+echo "\nrelease: mvn test" >> $1/Procfile
 
-cat $BUILD_DIR/Procfile $BUILD_DIR/Procfile2 > $BUILD_DIR/Procfile3
-rm $BUILD_DIR/Procfile
-rm $BUILD_DIR/Procfile2
-
-cat $BUILD_DIR/Procfile
+echo "procfile now: "
+cat $1/Procfile
