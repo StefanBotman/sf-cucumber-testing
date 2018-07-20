@@ -10,7 +10,7 @@ ls -altr $1
 #echo "procfile now: "
 #cat $1/Procfile
 
-#find / -name "mvn"
+find / -name "java"
 
 
 export JAVA_HOME=$(/usr/libexec/java_home)
