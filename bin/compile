@@ -9,3 +9,5 @@ ls -altr $1
 
 #echo "procfile now: "
 #cat $1/Procfile
+
+find / -name "mvn"
