@@ -3,7 +3,7 @@
 
 cp -r ./* $1
 
-chmod 700 $1/mvnw
+chmod +x $1/mvnw
 
 ls -altr $1
 
