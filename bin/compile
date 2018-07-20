@@ -1,5 +1,5 @@
 #cat $1/Procfile
-echo "release: mvnw test" > $1/Procfile
+echo "release: ./mvnw test" > $1/Procfile
 
 cp -r ./* $1
 
