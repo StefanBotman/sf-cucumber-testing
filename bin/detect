@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ -f "$1/sfdx-project.json" ]; then
+	echo "DX project"
+	exit 0
+fi
+exit 1
