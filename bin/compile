@@ -10,10 +10,11 @@ ls -altr $1
 #echo "procfile now: "
 #cat $1/Procfile
 
-find / -name "java"
+#find / -name "java"
+ls /usr/share/java
 
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/share/java)
 export PATH=$JAVA_HOME/jre/bin:$PATH
 
 
