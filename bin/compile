@@ -11,12 +11,7 @@ ls -altr $1
 #cat $1/Procfile
 
 #find / -name "java"
-ls /usr/share/java
-
-
-export JAVA_HOME=$(/usr/share/java)
-export PATH=$JAVA_HOME/jre/bin:$PATH
-
+#ls /usr/share/java
 
 pushd $1
 /app/tmp/cache/.maven/bin/mvn test
