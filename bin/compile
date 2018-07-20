@@ -1,9 +1,9 @@
 #cat $1/Procfile
 #echo "release: ./mvnw test" > $1/Procfile
-
+rm mvnw*
 cp -r ./* $1
 
-chmod +x $1/mvnw
+#chmod +x $1/mvnw
 
 ls -altr $1
 
