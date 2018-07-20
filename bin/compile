@@ -1,5 +1,5 @@
-cat $1/Procfile
-echo "release: mvn test" >> $1/Procfile
+#cat $1/Procfile
+#echo "release: mvn test" >> $1/Procfile
 
-echo "procfile now: "
-cat $1/Procfile
+#echo "procfile now: "
+#cat $1/Procfile
