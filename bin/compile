@@ -7,7 +7,7 @@ cp -r ./* $1
 
 ls -altr $1
 
-echo "release: /app/tmp/cache/.maven/bin/mvn test" > $1/Procfile
+/app/tmp/cache/.maven/bin/mvn test
 
 #echo "procfile now: "
 #cat $1/Procfile
